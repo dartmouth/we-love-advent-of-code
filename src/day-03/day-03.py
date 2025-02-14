@@ -18,7 +18,7 @@ def part_02(memory):
 
 
 if __name__ == "__main__":
-    with open("2024/day-03/input.txt") as f:
+    with open("src/day-03/input.txt") as f:
         memory = f.read()
 
     print(part_01(memory))
